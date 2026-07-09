@@ -13,8 +13,11 @@ or your data. New keys are **post-quantum by default** (ML-KEM / FIPS&nbsp;203).
   private key — every decryption happens client-side.
 - **Recovery without a backdoor.** Total device loss is handled by **threshold
   secret sharing** among recovery contacts you choose in advance (Shamir over
-  GF(256), scheme `SSS1`). No single party — not the server, not any one
-  contact — can recover your keys alone.
+  GF(256), scheme `SSS1`). No single party — and no coalition of contacts —
+  can recover your keys alone: each share is stored encrypted to its contact's
+  key, so the server can't read any share; contacts never receive your
+  encrypted keys; and recovery is time-delay protected and visible to the
+  owner.
 - **Open source.** The client libraries and the `ves` CLI are Apache-2.0.
 
 ### Projects
