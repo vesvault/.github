@@ -12,9 +12,9 @@ or your data. New keys are **post-quantum by default** (ML-KEM / FIPS&nbsp;203).
   keys, and *encrypted* vault entries. It never sees a VESkey or a decrypted
   private key — every decryption happens client-side.
 - **Recovery without a backdoor.** Total device loss is handled by **threshold
-  secret sharing** among recovery contacts you choose in advance (scheme
-  `RDX1.2`). No single party — not the server, not any one contact — can recover
-  your keys alone.
+  secret sharing** among recovery contacts you choose in advance (Shamir over
+  GF(256), scheme `SSS1`). No single party — not the server, not any one
+  contact — can recover your keys alone.
 - **Open source.** The client libraries and the `ves` CLI are Apache-2.0.
 
 ### Projects
