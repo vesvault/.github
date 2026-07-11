@@ -28,7 +28,7 @@ or your data. New keys are **post-quantum by default** (ML-KEM / FIPS&nbsp;203).
 |---|---|
 | 📦 **[libVES.c](https://github.com/vesvault/libVES.c)** | End-to-end encryption for data at rest — C library + `ves` CLI |
 | 📦 **[libVES](https://github.com/vesvault/libVES)** | End-to-end encryption for the browser & Node — JavaScript (npm: `libves`) |
-| 📝 **[VESpost](https://github.com/vesvault/vespost)** | Reference app — e2ee collaborative sticky notes in ~300 lines of `libVES.subtle` ([live demo](https://demo.ves.world)) |
+| 📝 **[VESpost](https://github.com/vesvault/vespost)** | Reference app — e2ee collaborative sticky notes in ~300 lines of `libVES.subtle` ([live demo](https://demo.ves.world), [walkthrough](https://dev.to/vesvaultjz/end-to-end-encrypted-collaborative-notes-in-300-lines-of-javascript-no-app-server-2mo)) |
 
 **Apps & services**
 
